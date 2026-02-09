@@ -29,13 +29,13 @@ The project is organized as follows:
 
 ```text
 Stranger Things_sentiment//
+├── app.py                      # Streamlit dashboard for data visualization
 ├── api_key.py                  # API Key configuration (Not included in repo)
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 ├── code/
 │   ├── data_acquisition.py     # Script for extracting YouTube comments
 │   ├── sentiment_processor.py  # Script for NLP analysis and validation
-│   └── app.py                  # Streamlit dashboard for data visualization
 ├── data/
 │   └── processed/              # Processed CSV files (e.g., S1_Hype_processed.csv)
 ├── results/                    # Aggregated results for the dashboard
